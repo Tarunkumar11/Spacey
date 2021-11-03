@@ -1,14 +1,16 @@
 import './App.css';
 import { Layout } from 'antd';
 import Navbar from 'components/Navbar/Navbar';
-const { Header, Footer, Content } = Layout;
+import Home from 'components/Home/Home';
+import HomeBackground from 'images/backgrounds/background-home-desktop.jpg'
+const { Footer } = Layout;
 
 function App() {
   return (
-    <Layout>
+    <Layout className="App" style={{backgroundImage:`url(${HomeBackground})`}}>
       <Navbar  />
-      <Content>Content</Content>
-      <Footer>Footer</Footer>
+      <Home />
+      {/* <Footer>Footer</Footer> */}
   </Layout>
     
   );
