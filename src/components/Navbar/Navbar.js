@@ -5,10 +5,6 @@ import Logo from 'images/icon/logo.svg'
 const { Text } = Typography;
 const { Header } = Layout
 
-// {new Array(15).fill(null).map((_, index) => {
-//     const key = index + 1;
-//     return <Menu.Item key={key}>{`nav ${key}`}</Menu.Item>;
-// })}
 function Navbar() {
 
     const NavItemStyle = { 

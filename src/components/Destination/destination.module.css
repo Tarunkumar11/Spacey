@@ -1,0 +1,100 @@
+.destinationContent{
+    margin: 0em 5em 0em 5em;
+    height: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;  
+    padding: 3% 3% 1% 3%;  
+    justify-content: space-between;
+    /* background: chartreuse; */
+    align-items: flex-start;
+}
+
+.headText{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.mark{
+    font-size: 1em;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color:#453636a6;
+}
+
+.planetInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    width: 100%;
+}
+
+.planetImage{
+    padding: 2em;
+}
+
+.explore{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2em;
+    background: transparent;
+    max-width: 500px;
+}
+.navList{
+    line-height: inherit;
+    background: transparent;
+    color: white !important;
+    border: none;
+    background: transparent;
+}
+
+.detailsAboutPlanet{
+    padding: 1em 1.4em;
+
+}
+
+.planetName{
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: left;
+}
+.planetInfoText{
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: white;
+    padding-bottom: 2%;
+}
+.distanceTime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.distanceText{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin:0;
+    color: white !important;
+    text-align: left;
+   
+}
+
+.distanceValue{
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+
+}
