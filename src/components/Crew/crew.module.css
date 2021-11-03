@@ -1,0 +1,87 @@
+.crewContent{
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-around;   
+ padding: 3% 3% 1% 3%;  
+ margin: 0em 5em 0em 5em;
+ flex-wrap: wrap;
+}
+.crewMemberInfo{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 500px;
+    height: 100%; */
+    max-width: 500px;
+    text-align: left;
+
+}
+.detailsAboutCrewMember{
+    padding-top: 20%;
+}
+
+.crewmemberTitle{
+    font-size: 32px;
+    letter-spacing: 2px;
+    opacity: 0.33;
+    text-align: left;
+    font-weight: 300;
+    color: beige;
+}
+.crewmemberName{
+    font-size: 56px;
+    letter-spacing: 1px;
+    color: white; 
+    text-align: left;
+    font-weight: 500;  
+    line-height: 60px;
+}
+
+.crewMemberInfoText{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: white;
+    padding-bottom: 2%;
+
+}
+
+.crewMemberImage{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 4em 0em 4em;
+    
+}
+
+.explore{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2em 2em 2em 0em;
+    background: transparent;
+    max-width: 500px;
+}
+
+.crosell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-end;
+    margin-top: 12em;
+}
+
+.page{
+    height: 15px;
+    width:  15px;
+    background: #979797;
+    margin-left: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.page:hover{
+    background: white;
+}
