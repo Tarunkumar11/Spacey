@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 .App {
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: border-box;
   background-position: center;
+  font-family: 'Bellefair', serif !important;
 }

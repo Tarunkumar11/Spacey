@@ -58,7 +58,7 @@ function Navbar({ handleBackgroundImage }) {
                 <img src={Logo} alt="Logo" />
              </div>
             <div className={style.line} ></div>
-            <Menu theme="light" mode="horizontal" className={style.navList} defaultSelectedKeys={['home']} onClick={(item) => {handleMenuItemClick(item.key)}}>
+            <Menu theme="light" mode="horizontal" className={style.navList} defaultSelectedKeys={['home']} onClick={(item) => {handleMenuItemClick(item.key,)}}>
                 <Menu.Item key="home"><Text strong  style={NavItemStyle}>00</Text> <Text style={NavItemStyle}>Home</Text></Menu.Item> 
                 <Menu.Item key="destination"> <Text strong  style={NavItemStyle}>01</Text> <Text style={NavItemStyle}>Destination</Text></Menu.Item>
                 <Menu.Item key="crew">        <Text strong style={NavItemStyle}>02</Text>  <Text style={NavItemStyle}>Crew</Text></Menu.Item>

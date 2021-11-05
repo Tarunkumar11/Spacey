@@ -22,12 +22,28 @@
 }
 .explore{
     height: 274px;
-    width: 274px;
+    width:  274px;
     border-radius: 50%;
     background: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.outerexplore{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+}
+
+.outerexplore:hover{
+    background: #979797;
 }
 .specialText{
     font-size: 140px;
