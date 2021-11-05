@@ -66,3 +66,44 @@
     color: white;
     padding-bottom: 2%;
 }
+
+@media screen and (max-width: 426px) {
+    .homeContent{
+        margin: 0;
+    }   
+
+    .spaceInfo{
+        padding:1em;
+        padding-top: 13%;
+        justify-content: center
+    }
+
+    .specialText{
+        font-size: 57px;
+        line-height: 70px;
+        margin-top: 0.5em;
+    }
+
+    .outerexplore{
+        height: 300px !important;
+        width:  300px !important;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .spaceInfo{
+        justify-content: center;
+    }
+
+    .outerexplore{
+        height: 350px;
+        width:  350px;
+    }
+
+    .spaceBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

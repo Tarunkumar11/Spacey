@@ -7,21 +7,14 @@ import Destination from 'components/Destination/Destination';
 import Crew from 'components/Crew/Crew';
 import Technology from 'components/Technology/Technology';
 import HomeBackground from 'images/backgrounds/background-home-desktop.jpg'
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch,
-} from "react-router-dom";
-const { Footer } = Layout;
-
+import { BrowserRouter as Router, Route, } from "react-router-dom";
 
 function App() {
   const [backgroundImage, setBackgroundImage] = useState(HomeBackground)
-  
   const handleBackgroundImage = (image) => {
       setBackgroundImage(image)
   }
+  
   return (
     <Layout className="App" style={{backgroundImage:`url(${backgroundImage})`}}>
       <Router>
