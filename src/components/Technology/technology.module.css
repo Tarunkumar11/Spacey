@@ -1,0 +1,85 @@
+.crewContent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 3% 0% 1% 3%;
+    margin: 0em 0em 0em 5em;
+    flex-wrap: wrap;
+
+}
+.headText{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+}
+
+.mark{
+    font-size: 1em;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color:#453636a6;
+}
+
+.technologyInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.detailsAboutTech{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+    padding: 0% 5% 0% 5%;
+    width: 100%;
+    
+}
+
+.crosell{
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.page{
+    border: 2px solid #c2bcbc;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.detailsAboutTechPlans{
+    max-width: 400px;
+}
+
+.techTitle{
+    font-size: 16px;
+    letter-spacing: 2px;
+    opacity: 0.33;
+    text-align: left;
+    font-weight: 300;
+    color: beige;
+}
+
+.crewMemberImage{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 0em 0em 4em;   
+}
